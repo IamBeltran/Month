@@ -1,0 +1,52 @@
+{
+  "extends": [
+    "airbnb",
+    "prettier"
+  ],
+  "plugins": [
+    "prettier"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true,
+        "impliedStrict": true,
+        "classes": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "env": {
+      "browser": true,
+      "node": true,
+      "es6": true,
+      "mocha": true
+  },
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "rules": {
+    "strict": [2,"global"],
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "import/no-dynamic-require": 0,
+    "import/no-extraneous-dependencies": [
+      "error", {
+        "devDependencies": [
+          "devtools/**/*.js",
+          "tools/**/*.js",
+          "test/**/*.js",
+          "gulpfile.js"
+          ]
+        }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "printWidth": 100,
+        "trailingComma": "all"
+      }
+    ]
+  }
+}
