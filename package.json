@@ -41,7 +41,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "ansi-colors": "^4.1.1",
+    "cross-env": "^6.0.0",
+    "nodemon": "^1.19.2"
+  },
   "engines": {},
   "engineStrict": false,
   "os": [
