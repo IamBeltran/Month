@@ -45,6 +45,7 @@
   "devDependencies": {
     "ansi-colors": "^4.1.1",
     "cross-env": "^6.0.0",
+    "eslint": "^6.4.0",
     "nodemon": "^1.19.2"
   },
   "engines": {},
