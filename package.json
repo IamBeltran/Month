@@ -1,6 +1,6 @@
 {
   "name": "month",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.3",
   "private": false,
   "description": "Class to generate a calendar with information of the current month",
   "keywords": [
